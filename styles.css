@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+        body {
+            font-family: Arial, sans-serif;
+            width: 1100px;
+            margin: 0 auto;
+            background-color: #e3e3e3;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        td {
+            vertical-align: top;
+        }
+        td img {
+            width: 100%;
+            height: auto;
+        }
+        .leftColumn, .rightColumn {
+            width: 200px;
+        }
+        .middleColumn {
+            width: 600px;
+            text-align: justify;
+        }
+        .objective {
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
